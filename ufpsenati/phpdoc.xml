@@ -1,0 +1,23 @@
+<phpdocumentor configVersion="3" xmlns="https://www.phpdoc.org">
+  <title>SENATI CHINCHA</title>
+    <paths>
+      <output>docs</output>
+      <cache>.phpdoc</cache>
+    </paths>
+  <version number="1">
+    <api>
+        <!-- Carpetas utilizadas para la documentación -->
+      <source dsn=".">
+        <path>app/Models/*</path>
+        <path>app/Controllers/*</path>
+        <path>app/Libraries/*</path>
+      </source>
+      <!-- archivos o carpetas ignoradas -->
+      <ignore>
+        <path>
+          app/Controllers/BaseController.php
+        </path>
+      </ignore>
+    </api>
+  </version>
+</phpdocumentor>
